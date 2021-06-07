@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<?php include_once cadastrar_usuario.php?>
+  <head>
+    <title>Home</title>
+    <meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/fomulario.css">
+	<style type="text/css"></style>
+  </head>
+  <body>
+    <header class="cabecalho">
+		<div id="usuario">
+			<img src="imagens/icons/user-3.png">
+			<ul>
+				<li><a href="#">NOME USUARIO</a>
+					<ul>
+						<li><a href="#">EDITAR PERFIL</a></li>
+						<li><a href="#">PLANOS</a></li>
+						<li><a href="#">SAIR</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</header>
+	<nav class="menu">
+		<ul>
+			<li><a href="#">CRIAR PARTIDA</a></li>
+			<li><a href="#">MINHAS PARTIDAS</a></li>
+			<li><a href="#">RANCKING</a></li>			
+		</ul>
+	</nav>
+	<section>
+		<form method="POST" action="cadastrar_usuario.php">
+			<fieldset class="grupo">
+				<div>
+					<label for="nome"><strong>Nome</strong></label> <br>
+					<input type="text" name="nome" id="nome">
+				</div>
+				<button class="botao" type="submit" name="pesquisarUsuario">Pesquisar</button>
+			</fieldset>
+			
+			
+		</form>
+	</section>
+	<aside>
+	</aside>
+	<footer>
+	</footer>
+  </body>
+</html>

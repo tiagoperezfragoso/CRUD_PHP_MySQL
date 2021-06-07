@@ -1,0 +1,183 @@
+*{margin: 0; padding: 0;}
+
+body{
+font-family: arial, helvetica, sans-serif;
+font-size: 12px;
+background-color: #F5F5F5;
+justify-content: center;
+}
+
+.cabecalho {
+	background-color: #191970;
+	float: left;
+	height: 50px;
+	width: 100%;
+	color: #FFA500;
+	margin-top: 0px;
+}
+.cabecalho #usuario{
+	background-color: #191970;
+	float: right;
+	height: 50px;
+	width: 25%;
+	margin-top: 0px;
+	cursor: pointer;
+}
+
+.cabecalho #usuario:hover{
+	background-color: #FFA500;
+	
+}
+
+.cabecalho img{
+	height: 45px;
+	width: 45px;
+	float: left;
+	margin-top: 2px;
+	margin-left: 10px;
+}
+
+.cabecalho #usuario ul{
+	float: left;
+	width: 200px;
+	margin-left: 10px;
+	
+}
+
+
+
+.cabecalho #usuario ul li{
+	float: left;
+	list-style: none;
+	position: relative;
+	width: 200px;
+	color: white;
+}
+
+.cabecalho #usuario ul li a{
+	text-decoration: none;
+	display: block;
+	font-size: 14px;
+	padding: 22px 14px;
+	color: white;
+	font-family: Helvetica;
+	
+}
+
+.cabecalho #usuario ul li a:hover{
+	color: white;
+}
+
+.cabecalho #usuario ul li ul{
+	display: none;
+	position: relative;
+	background-color: #FFA500;
+	padding: 10px;
+	border-radius: 0px 0px 5px 5px;
+	position: absolute;
+
+}
+
+.cabecalho #usuario ul li:hover ul{
+	display: block;
+
+}
+
+
+.cabecalho #usuario ul li ul li:hover{
+	padding: 8px 14px;
+	background-color:#191970;
+	border-radius: 0px 0px 5px 5px;
+}
+
+.menu {
+	width: 25%;
+	height: 600px;;
+	float: left;
+	background-color: #483D8B;
+}
+
+.menu ul {
+	float: left;
+	width: 100%;
+	margin-left: 10px;
+}
+
+.menu ul li {
+	padding: 10px 10px;
+	cursor: pointer;
+}
+
+.menu ul li a{
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	font-family: Helvetica;
+}
+
+.menu ul li:hover {
+	background-color: #FFA500;
+	margin-top: 10px;
+	border-radius: 0px 0px 5px; 5px;
+}
+
+.grupo input, select {
+	border-radius: 5px;
+}
+
+.grupo {
+	margin-top: 10px;
+}
+
+
+.campo input[type="text"], .campo input[type="email"], .campo select {
+		padding: 10px;
+		display: block;
+}
+
+.grupo input, label, select, checkbox{
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	float: ;
+}
+fieldset {
+	margin-bottom: 20px;
+	border: 0px;
+	float: left;
+	margin-left: 250px;
+	padding: 10px;
+}
+.botao {
+	font-size: 14px;
+	background: #59429d;
+	border: 0;
+	color: #FFFFFF;
+	margin-top: 50px;
+	float: left;
+	margin-left: 0px;
+	cursor: pointer;
+	padding: 10px;
+}
+
+.botao:hover {
+	background: #DAA520	;
+}
+
+.botao_cancelar {
+	font-size: 14px;
+	background: #59429d;
+	border: 0;
+	color: #FFFFFF;
+	margin-top: 50px;
+	float: left;
+	margin-left: 0px;
+	cursor: pointer;
+	padding: 10px;
+	margin-left: 20px;
+}
+
+.botao_cancelar:hover {
+	background: #DAA520	;
+}
+

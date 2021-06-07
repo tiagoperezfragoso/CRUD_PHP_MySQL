@@ -1,1 +1,1 @@
-# CRUD_PHP_MySQL
+Projeto em que desenvolvo minhas habilidades em PHP + MySQL + HTML + CSS

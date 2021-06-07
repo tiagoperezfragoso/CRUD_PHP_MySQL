@@ -1,0 +1,294 @@
+*{margin: 0; padding: 0;}
+
+body{
+font-family: arial, helvetica, sans-serif;
+font-size: 12px;
+background-color: #F5F5F5;
+justify-content: center;
+}
+
+.cabecalho {
+	background-color: #191970;
+	float: left;
+	height: 50px;
+	width: 100%;
+	color: #FFA500;
+	margin-top: 0px;
+}
+.cabecalho #usuario{
+	background-color: #191970;
+	float: right;
+	height: 50px;
+	width: 25%;
+	margin-top: 0px;
+	cursor: pointer;
+}
+
+.cabecalho #usuario:hover{
+	background-color: #FFA500;
+	
+}
+
+.cabecalho img{
+	height: 45px;
+	width: 45px;
+	float: left;
+	margin-top: 2px;
+	margin-left: 10px;
+}
+
+.cabecalho #usuario ul{
+	float: left;
+	width: 200px;
+	margin-left: 10px;
+	
+}
+
+
+
+.cabecalho #usuario ul li{
+	float: left;
+	list-style: none;
+	position: relative;
+	width: 200px;
+	color: white;
+}
+
+.cabecalho #usuario ul li a{
+	text-decoration: none;
+	display: block;
+	font-size: 14px;
+	padding: 22px 14px;
+	color: white;
+	font-family: Helvetica;
+	
+}
+
+.cabecalho #usuario ul li a:hover{
+	color: white;
+}
+
+.cabecalho #usuario ul li ul{
+	display: none;
+	position: relative;
+	background-color: #FFA500;
+	padding: 10px;
+	border-radius: 0px 0px 5px 5px;
+	position: absolute;
+
+}
+
+.cabecalho #usuario ul li:hover ul{
+	display: block;
+
+}
+
+
+.cabecalho #usuario ul li ul li:hover{
+	padding: 8px 14px;
+	background-color:#191970;
+	border-radius: 0px 0px 5px 5px;
+}
+
+.cabecalho #bd_connection img {
+	background-color: green;
+	border-radius: 20px;
+	width: 20px;
+	height: 20px;
+}
+
+.menu {
+	width: 25%;
+	height: 1000px;
+	float: left;
+	background-color: #483D8B;
+}
+
+.menu ul {
+	float: left;
+	width: 100%;
+	margin-left: 10px;
+}
+
+.menu ul li {
+	padding: 10px 10px;
+	cursor: pointer;
+}
+
+.menu ul li a{
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	font-family: Helvetica;
+}
+
+.menu ul li:hover {
+	background-color: #FFA500;
+	margin-top: 10px;
+	border-radius: 0px 0px 5px; 5px;
+}
+
+.grupo input{
+	border-radius: 0px;
+	border-style: none;
+	border-bottom-style: solid;
+	padding: 10px;
+	width: 200px;
+}
+.grupo {
+	margin-top: 10px;
+}
+
+.grupo input, label, select{
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	float: ;
+}
+
+fieldset {
+	margin-bottom: 20px;
+	border: 0px;
+	width: 200px;
+	float: left;
+	margin-left: 100px;
+}
+
+.botao {
+	font-size: 14px;
+	background: #59429d;
+	border: 0;
+	color: #FFFFFF;
+	margin-top: 50px;
+	float: left;
+	margin-left: 0px;
+	cursor: pointer;
+	padding: 10px;
+}
+
+.botao:hover {
+	background: #DAA520	;
+}
+
+.botao_cancelar {
+	font-size: 14px;
+	background: #59429d;
+	border: 0;
+	color: #FFFFFF;
+	margin-top: 50px;
+	float: left;
+	margin-left: 0px;
+	cursor: pointer;
+	padding: 10px;
+	margin-left: 20px;
+	text-decoration: none;
+}
+
+.botao_cancelar:hover {
+	background: #DAA520	;
+}
+
+.tabela_cliente {
+	float: left;
+	margin-left: 50px;
+	margin-top: 10px;
+	height: 500px;
+	width: 500px;
+	border-collapse: collapse;
+	margin-bottom: 100px;
+}
+
+.tabela_cliente #topo_lista {
+	background-color: #8A2BE2;
+	border-bottom-style: solid;
+	border-color: #A9A9A9;
+	color: white;
+}
+
+.tabela_cliente tr td{
+	border-style: none;
+	padding: 5px;
+	border-width: 1px;
+	text-align: center;
+}
+
+.tabela_cliente tr:nth-child(even){
+	background-color: #fff;
+}
+
+.tabela_cliente tr:nth-child(odd){
+	background-color: #DCDCDC;
+}
+
+.qtd_item {
+	float: right;
+	margin-top: 50px;
+	margin-right: 50px;
+}
+
+.tabela_cliente #foto_lista{
+	width: 100px;
+	height: 100px;
+}
+
+.foto_identificacao {
+	float: left;
+	margin-left: 50px;
+	margin-top: 200px;
+}
+
+.foto_identificacao #foto_lista {
+	width: 100px;
+	height: 100px;
+}
+.foto_identificacao_editar {
+	float: right;
+	margin-right: 100px;
+	margin-top: 200px;
+}
+
+.foto_identificacao_editar #foto_lista_editar {
+	margin-left: 50px;
+	width: 200px;
+	height: 200px;
+}
+
+.botao_editar {
+	font-size: 14px;
+	width: 80px;
+	margin-top: 2px;
+	background: #59429d;
+	border: 0;
+	color: #FFFFFF;
+	float: left;
+	margin-left: 0px;
+	cursor: pointer;
+	padding: 10px;
+	text-decoration: none;
+}
+.botao_editar:hover {
+	background-color: #DAA520 ;
+}
+
+.mensagem {
+	width: 200px;
+	height: 50px;
+	background-color: #00FF7F;
+	color: white;
+	text-align: center;
+	font-family: Verdana, Arial, Helvetica, sans-serif;;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.mensagem_erro {
+	width: 200px;
+	height: 50px;
+	background-color: #FA8072;
+	color: white;
+	text-align: center;
+	font-family: Verdana, Arial, Helvetica, sans-serif;;
+	font-weight: bold;
+	font-size: 20px;
+}
+
