@@ -13,8 +13,6 @@ echo $qtd_itens;
 					echo "não funcionou 10";
 				}else
 
-					echo "Não Funcionou 15";
-
-					
+					echo "Não Funcionou"				
 
 ?>
